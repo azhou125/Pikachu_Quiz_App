@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	  <title>Pikachu Quiz</title>
+	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css>
+	  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+<body>
+
+	<header role="banner">
+		<div class="col-4 icon">
+			<a href="index.html">
+				<img src="pic-pikameeting.png" alt="Pikachu Garden" class="header-pic">
+			</a>
+		</div>
+		<div class="col-8 score-record">
+			<ul>
+				<li>Question: <span class="current-question">0</span>/10</li>
+				<li>Score: <span class="current-score">0</span></li>
+			</ul>
+		</div>
+	</header>
+
+	<main role="main" class="quizApp">
+		<div class="intro">
+			<h1>Maybe you might not know much about the world of pokemon, but you must know about Pikachu! This quiz test how much you know about Pikachu in detail.</h1>
+			<button type="button" name="start-button" class="start-button">Let's Go!</button>
+		</div>
+		
+		<div role="container" class="question" >
+		</div>
+
+		<div class="feedback">
+		</div>
+
+    <div class="final">
+    </div>
+
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="datastore.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
